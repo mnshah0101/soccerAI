@@ -135,7 +135,6 @@ plt.title("England Twitter Sentiment")
 plt.ylabel("Player")
 plt.xlabel("Sentiment Score")
 
-
 for player in USA_sentiment_distribution:
     plt.hist(USA_sentiment_distribution[player], label = player )
     plt.legend()
